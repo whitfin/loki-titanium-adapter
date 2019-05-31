@@ -138,5 +138,5 @@ function _reset() {
 	});
 
 	// update the list with the new section
-	records.sections = [section];
+	records.sections = [ section ];
 }
