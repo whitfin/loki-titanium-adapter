@@ -1,0 +1,26 @@
+# Language flags.
+language: node_js
+
+# OS matrix.
+os:
+  - windows
+  - linux
+  - osx
+
+# Version matrix.
+node_js:
+  - "12"
+  - "10"
+  - "8"
+  - "6"
+  - "4"
+
+# Additional builds.
+matrix:
+  include:
+
+    # Linting build, only on latest.
+    - os: linux
+      node_js: "12"
+      script:
+        - npm run lint

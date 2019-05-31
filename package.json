@@ -1,0 +1,29 @@
+{
+  "name": "loki-titanium-adapter",
+  "version": "1.0.0",
+  "description": "Titanium SDK adapter for the Loki embedded database",
+  "author": {
+    "name": "Isaac Whitfield",
+    "email": "iw@whitfin.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/whitfin/loki-titanium-adapter.git"
+  },
+  "bugs": "http://github.com/whitfin/loki-titanium-adapter/issues",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "json",
+    "database",
+    "embedded",
+    "titanium-sdk"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js ./"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-axway": "4.2.2"
+  }
+}
