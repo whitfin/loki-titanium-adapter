@@ -33,7 +33,7 @@ const db = new Loki('my-database', {
 	autosave: true,
 	autosaveInterval: 5000,
 	autoloadCallback: function () {
-    // called when your database is loaded
+		// called when your database is loaded
 	},
 });
 ```
@@ -46,7 +46,7 @@ hook for the `pause` event to flush when the application is closed:
 // Add a pause listener to ensure flush on background
 Ti.App.addEventListener('pause', function (_e) {
 	db.saveDatabase(function (e) {
-    // documents should have been flushed
+		// documents should have been flushed
 	});
 });
 ```
