@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "dependencies": {
-    "loki-titanium-adapter": "1.0.0",
+    "loki-titanium-adapter": "1.1.0",
     "lokijs": "1.5.6"
   }
 }
