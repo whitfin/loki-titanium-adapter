@@ -1,6 +1,6 @@
 {
   "name": "loki-titanium-adapter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Titanium SDK adapter for the Loki embedded database",
   "author": {
     "name": "Isaac Whitfield",
