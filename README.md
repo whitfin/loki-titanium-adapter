@@ -1,5 +1,5 @@
 # loki-titanium-adapter
-[![Build Status](https://img.shields.io/travis/whitfin/loki-titanium-adapter.svg)](https://travis-ci.org/whitfin/loki-titanium-adapter)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/whitfin/loki-titanium-adapter/ci.yml)](https://github.com/whitfin/loki-titanium-adapter/actions)
 ![npm](https://img.shields.io/npm/v/loki-titanium-adapter.svg)
 
 Titanium SDK adapter for the [Loki](https://github.com/techfort/LokiJS)
