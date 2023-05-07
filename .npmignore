@@ -1,2 +1,5 @@
 # example directories
 example/
+.github
+.eslintrc
+
