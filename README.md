@@ -29,12 +29,12 @@ const TitaniumAdapter = require('loki-titanium-adapter');
 // Construct our database instance
 const db = new Loki('my-database', {
 	adapter: new TitaniumAdapter({
-		parent: 'data',
+		parent: 'data',				// subdirectory in app data
 		reader: {
-			buffer: 1024 * 1024
+			buffer: 1024 * 1024		// max buffer during disk reads
 		},
 		writer: {
-			batch: 25
+			batch: 25				// number of documents to write in batch
 		}
 	}),
 	autoload: true,
@@ -63,6 +63,3 @@ There is also a more complete [example app](example/) available - just keep
 in mind that you need to run `npm install` before you try to run it. For any
 further use, check out [Loki wiki](https://github.com/techfort/LokiJS/wiki)
 as the API is exactly the same.
-
-If you struggle for memory, close handles to the database when you're not
-using it and reopen when relevant (i.e. treat it like SQLite).
