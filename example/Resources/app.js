@@ -6,8 +6,8 @@ const TitaniumAdapter = require('loki-titanium-adapter');
 const db = new Loki('values', {
 	adapter: new TitaniumAdapter(),
 	autoload: true,
-	autosave: false,
-	autosaveInterval: 5000,
+	autosave: true,
+	autosaveInterval: 3000,
 	autoloadCallback: function () {
 		if (!db.getCollection('values')) {
 			db.addCollection('values');
@@ -31,7 +31,7 @@ let submit = Ti.UI.createButton({
 
 // Create our insertion text field
 let insert = Ti.UI.createTextField({
-	top: 50,
+	top: 75,
 	height: 35,
 	width: 200,
 	backgroundColor: 'white',
