@@ -34,7 +34,7 @@ const db = new Loki('my-database', {
 			buffer: 1024 * 1024		// max buffer during disk reads
 		},
 		writer: {
-			batch: 25				// number of documents to write in batch
+			batch: 25			// number of documents to write in batch
 		}
 	}),
 	autoload: true,
