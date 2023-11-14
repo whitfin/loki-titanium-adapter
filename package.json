@@ -1,6 +1,6 @@
 {
   "name": "loki-titanium-adapter",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Titanium SDK adapter for the Loki embedded database",
   "author": {
     "name": "Isaac Whitfield",
@@ -20,13 +20,12 @@
     "titanium-sdk"
   ],
   "scripts": {
-    "lint": "eslint --ext .js ./lib ./example/Resources/app.js"
+    "lint": "eslint lib/*.js ./example/Resources/app.js"
   },
   "dependencies": {
     "neo-async": "2.6.2"
   },
   "devDependencies": {
-    "eslint": "5.16.0",
-    "eslint-config-axway": "4.2.2"
+    "eslint": "^8.53.0"
   }
 }

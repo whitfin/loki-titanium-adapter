@@ -1,6 +1,6 @@
 # loki-titanium-adapter
-[![Build Status](https://img.shields.io/github/actions/workflow/status/whitfin/loki-titanium-adapter/ci.yml)](https://github.com/whitfin/loki-titanium-adapter/actions)
-![npm](https://img.shields.io/npm/v/loki-titanium-adapter.svg)
+
+[![Build Status](https://img.shields.io/github/actions/workflow/status/whitfin/loki-titanium-adapter/ci.yml?branch=main)](https://github.com/whitfin/loki-titanium-adapter/actions) [![Published Version](https://img.shields.io/npm/v/loki-titanium-adapter.svg)](https://npmjs.com/package/loki-titanium-adapter) [![Published Downloads](https://img.shields.io/npm/dt/loki-titanium-adapter)](https://npmjs.com/package/loki-titanium-adapter)
 
 Titanium SDK adapter for the [Loki](https://github.com/techfort/LokiJS)
 embedded database.

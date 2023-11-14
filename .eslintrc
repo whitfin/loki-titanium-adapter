@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "axway/env-node"
-  ],
-  "globals": {
-    "Ti": true,
-    "Titanium": true
-  }
-}

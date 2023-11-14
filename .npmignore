@@ -1,5 +1,5 @@
 # example directories
 example/
 .github
-.eslintrc
+.eslintrc.js
 
