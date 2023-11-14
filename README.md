@@ -28,21 +28,21 @@ const TitaniumAdapter = require('loki-titanium-adapter');
 
 // Construct our database instance
 const db = new Loki('my-database', {
-	adapter: new TitaniumAdapter({
-		parent: 'data',				// subdirectory in app data
-		reader: {
-			buffer: 1024 * 1024		// max buffer during disk reads
-		},
-		writer: {
-			batch: 25			// number of documents to write in batch
-		}
-	}),
-	autoload: true,
-	autosave: true,
-	autosaveInterval: 5000,
-	autoloadCallback: function () {
-		// called when your database is loaded
-	},
+    adapter: new TitaniumAdapter({
+        parent: 'data',             // subdirectory in app data
+        reader: {
+            buffer: 1024 * 1024     // max buffer during disk reads
+        },
+        writer: {
+            batch: 25               // number of documents to write in batch
+        }
+    }),
+    autoload: true,
+    autosave: true,
+    autosaveInterval: 5000,
+    autoloadCallback: function () {
+        // called when your database is loaded
+    },
 });
 ```
 
@@ -53,9 +53,9 @@ hook for the `pause` event to flush when the application is closed:
 ```javascript
 // Add a pause listener to ensure flush on background
 Ti.App.addEventListener('pause', function (_e) {
-	db.saveDatabase(function (e) {
-		// documents should have been flushed
-	});
+    db.saveDatabase(function (e) {
+        // documents should have been flushed
+    });
 });
 ```
 
