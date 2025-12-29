@@ -23,9 +23,9 @@
     "lint": "eslint lib/*.js ./example/Resources/app.js"
   },
   "dependencies": {
-    "neo-async": "2.6.2"
+    "neo-async": "^2.6.2"
   },
   "devDependencies": {
-    "eslint": "^8.53.0"
+    "eslint": "^9.39.2"
   }
 }
